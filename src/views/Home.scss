@@ -1,0 +1,18 @@
+$primary-color: #3498db;
+$text-color: white;
+
+.home-container {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: 20px;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .series-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}
